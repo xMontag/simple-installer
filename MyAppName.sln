@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAppName", "MyAppName\MyAppName.csproj", "{2B4D148A-E6D9-4F40-AFFC-146CCD412456}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MyAppNameInstaller", "MyAppNameInstaller\MyAppNameInstaller.vdproj", "{403E4320-8EA9-426B-B1D1-B1A09996D835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B4D148A-E6D9-4F40-AFFC-146CCD412456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B4D148A-E6D9-4F40-AFFC-146CCD412456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B4D148A-E6D9-4F40-AFFC-146CCD412456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B4D148A-E6D9-4F40-AFFC-146CCD412456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403E4320-8EA9-426B-B1D1-B1A09996D835}.Debug|Any CPU.ActiveCfg = Debug
+		{403E4320-8EA9-426B-B1D1-B1A09996D835}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16FBA7C6-CB49-4138-9040-66258D3DA085}
+	EndGlobalSection
+EndGlobal
